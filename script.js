@@ -1,6 +1,7 @@
 let imgs =  document.getElementById("img")
 let img = document.querySelectorAll("#img img")
-
+let car1 = document.getElementsByClassName("carrossel1")
+let cont1 = document.querySelectorAll(".container1 img")
 let idx = 0
 
 function carrossel(){
@@ -9,8 +10,9 @@ function carrossel(){
     if(idx > img.length - 1){
         idx = 0
     }
+    imgs.style.transform = `translateX(${-idx * 450}px)`
 
-    imgs.style.transform = `translateX(${-idx * 400}px)`
+    
 }
 
 setInterval(carrossel, 1800)
