@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(20, 20, 20);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#container{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+#kokoro{
+    font-size: 24pt;
+    font-family: 'Sacramento', cursive;
+}
+
+#nomes{
+    /*font-family: 'Satisfy', cursive;*/
+    font-size: 20pt;
+    font-family: 'Sacramento', cursive;
+    color: rgba(231, 18, 36, 0.747);
+}
+#texto{
+    padding: 20px;
+}
+
+.carrossel{
+    margin:  10px auto;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    width: 400px;
+    
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    width: 400px;
+
+}
