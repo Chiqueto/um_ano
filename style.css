@@ -134,7 +134,13 @@ img{
     color: rgba(231, 18, 36, 0.747);
 }
 #texto{
+    text-align: left;
     padding: 20px;
+}
+#texto h2{
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(255, 0, 64);
 }
 
 ul{
@@ -168,4 +174,24 @@ ul li a{
 ul li a:hover{
     background: var(--surface-color-hover);/*muda o fundo qnd passa o mouse*/
     border: 1.5px solid var(--text-color);/*muda a borda*/
+}
+
+#index{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn{
+    width: 60px;
+    height: 30px;
+    background: var(--surface-color);
+    transition: background 0.2s;
+    color: var(--text-color);
+    border-color: var(--stroke-color);
+    border-radius: 20%;
+}
+
+.btn:hover{
+    background: var(--surface-color-hover)
 }
