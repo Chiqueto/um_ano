@@ -22,7 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #1b1d20; /*rgb(20, 20, 20);*/
+    background: /*#1b1d20*/ #111; /*rgb(20, 20, 20);*/
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
 }
